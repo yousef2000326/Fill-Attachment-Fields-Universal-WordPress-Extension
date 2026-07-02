@@ -23,10 +23,11 @@
 
 **تجربة حية على متجر عقيق** — شاهد كيف تعمل الإضافة في الواقع: من رفع صور المنتج إلى ملء الحقول بضغطة واحدة.
 
-<video width="640" controls>
-  <source src="assets/videos/demo.mp4" type="video/mp4">
-  متصفحك لا يدعم تشغيل الفيديو.
-</video>
+<a href="https://youtu.be/WEMcsqZtiYE" target="_blank">
+  <img src="https://img.youtube.com/vi/WEMcsqZtiYE/maxresdefault.jpg" alt="▶ شاهد الفيديو على YouTube" width="640">
+</a>
+
+> 📥 [تحميل الفيديو مباشرة](assets/videos/demo.mp4) — 6 ميجابايت
 
 ---
 
