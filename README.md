@@ -23,9 +23,10 @@
 
 **تجربة حية على متجر عقيق** — شاهد كيف تعمل الإضافة في الواقع: من رفع صور المنتج إلى ملء الحقول بضغطة واحدة.
 
-<a href="https://youtu.be/WEMcsqZtiYE" target="_blank">
-  <img src="https://img.youtube.com/vi/WEMcsqZtiYE/maxresdefault.jpg" alt="مقطع تجريبي — Fill Attachment Fields على متجر عقيق" width="640">
-</a>
+<video width="640" controls>
+  <source src="assets/videos/demo.mp4" type="video/mp4">
+  متصفحك لا يدعم تشغيل الفيديو.
+</video>
 
 ---
 

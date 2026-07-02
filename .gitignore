@@ -26,7 +26,3 @@ node_modules/
 
 # Temporary / misc
 *.png.tmp
-
-# Videos (too large for Git)
-assets/videos/*.mp4
-assets/videos/*.webm
