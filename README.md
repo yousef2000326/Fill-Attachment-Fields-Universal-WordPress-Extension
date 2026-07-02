@@ -23,7 +23,9 @@
 
 **تجربة حية على متجر عقيق** — شاهد كيف تعمل الإضافة في الواقع: من رفع صور المنتج إلى ملء الحقول بضغطة واحدة.
 
-[![مقطع تجريبي — Fill Attachment Fields على متجر عقيق](https://img.youtube.com/vi/WEMcsqZtiYE/maxresdefault.jpg)](https://youtu.be/WEMcsqZtiYE)
+<a href="https://youtu.be/WEMcsqZtiYE" target="_blank">
+  <img src="https://img.youtube.com/vi/WEMcsqZtiYE/maxresdefault.jpg" alt="مقطع تجريبي — Fill Attachment Fields على متجر عقيق" width="640">
+</a>
 
 ---
 
@@ -249,6 +251,8 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 
 ## 🔍 كيف تعمل الإضافة؟
 
+<div align="center">
+
 ```
 فتح صفحة المنتج في ووردبريس
         │
@@ -279,22 +283,26 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
   تحديث العدادات والشارة
 ```
 
+</div>
+
 **مراقبة DOM:** يستخدم `MutationObserver` مع `debounce` (200ms) لاكتشاف لوحات المرفقات الجديدة تلقائيًا — مثلًا عند رفع صور جديدة — وإضافة الزر لها فورًا.
 
 ---
 
 ## 📁 هيكل المشروع
 
+<div dir="ltr">
+
 ```
 Fill-Attachment-Fields-Universal-WordPress-Extension/
 │
-├── README.md              ← ملف التوثيق (هذا الملف)
-├── CHANGELOG.md           ← سجل التغييرات
-├── LICENSE                ← ترخيص MIT
+├── README.md              ← Documentation file (this file)
+├── CHANGELOG.md           ← Change log
+├── LICENSE                ← MIT License
 ├── .gitignore
 │
-├── assets/                ← جميع الموارد
-│   ├── screenshots/       ← لقطات الشاشة
+├── assets/                ← All resources
+│   ├── screenshots/       ← Screenshots
 │   │   ├── popup-page.png
 │   │   ├── filter-by-type.png
 │   │   ├── button-above-image.png
@@ -304,28 +312,30 @@ Fill-Attachment-Fields-Universal-WordPress-Extension/
 │   │   ├── blocked-sites.png
 │   │   ├── statistics.png
 │   │   └── about-extension.png
-│   └── videos/            ← فيديوهات العرض (غير مُرفَعة على Git)
+│   └── videos/            ← Demo videos (not pushed to Git)
 │
-└── extension/             ← ملفات الإضافة (ZIP للتوزيع)
-    ├── manifest.json      ← إعدادات الإضافة (Manifest V3)
+└── extension/             ← Extension files (ZIP for distribution)
+    ├── manifest.json      ← Extension settings (Manifest V3)
     ├── background.js      ← Service Worker
-    ├── content.js         ← سكريبت المحتوى
-    ├── content.css        ← أنماط الزر
-    ├── popup.html         ← النافذة المنبثقة
+    ├── content.js         ← Content script
+    ├── content.css        ← Button styles
+    ├── popup.html         ← Popup window
     ├── popup.css
     ├── popup.js
-    ├── options.html       ← صفحة الإعدادات
+    ├── options.html       ← Settings page
     ├── options.css
     ├── options.js
-    ├── _locales/          ← ملفات الترجمة (i18n)
+    ├── _locales/          ← Translation files (i18n)
     │   ├── ar/messages.json
     │   └── en/messages.json
-    └── icons/             ← الأيقونات
+    └── icons/             ← Icons
         ├── icon16.png
         ├── icon48.png
         ├── icon128.png
         └── icon512.png
 ```
+
+</div>
 
 ---
 
