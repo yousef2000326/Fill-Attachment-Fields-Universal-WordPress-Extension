@@ -4,10 +4,11 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases/tag/1.0.0)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases/tag/v1.0.0)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Chrome](https://img.shields.io/badge/Chrome-Extension-e67e22.svg)](https://chromewebstore.google.com/search/fill%20attachment%20fields)
 [![Manifest](https://img.shields.io/badge/Manifest-V3-4285f4.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
+[![Downloads](https://img.shields.io/github/downloads/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/total?style=flat-square)](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases)
 
 </div>
 
@@ -127,7 +128,18 @@
 
 ## 📦 التثبيت على كروم
 
-### الطريقة 1: تحميل غير مضغوط (للتطوير)
+### 🚀 الطريقة 1: تحميل مباشر من Releases (الأسهل)
+
+1. نزّل أحدث إصدار: [**Fill-Attachment-Fields-v1.0.0.zip**](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases/download/v1.0.0/Fill-Attachment-Fields-v1.0.0.zip)
+2. فك ضغط الملف
+3. افتح Chrome وانتقل إلى `chrome://extensions`
+4. فعّل **Developer mode** من الزاوية العلوية
+5. اضغط **Load unpacked** واختر المجلد المستخرج
+6. ✅ ستظهر أيقونة الإضافة في شريط الأدوات
+
+> 📋 جميع الإصدارات المتاحة: [صفحة Releases](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases)
+
+### 💻 الطريقة 2: تحميل غير مضغوط (للتطوير)
 
 ```bash
 git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension.git
@@ -137,14 +149,6 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 2. فعّل **Developer mode** من الزاوية العلوية
 3. اضغط **Load unpacked** واختر مجلد `extension/`
 4. ✅ ستظهر أيقونة الإضافة في شريط الأدوات
-
-### الطريقة 2: من ملف ZIP (للتوزيع)
-
-1. نزّل أحدث إصدار من صفحة [Releases](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases)
-2. فك ضغط الملف
-3. اتبع الخطوات 1-4 أعلاه
-
-> **💡 ملاحظة:** للتوزيع على العملاء، قم بعمل ZIP لمجلد `extension/` فقط — هذا هو كل ما يحتاجونه.
 
 ---
 
