@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 📑 فهرس الإصدارات
+
+- [1.0.0](#100---2026-07-01) — الإصدار الأول
+
+---
+
+## [Unreleased]
+
+> قيد التطوير — لا توجد تغييرات جديدة حاليًا.
+
 ---
 
 ## [1.0.0] - 2026-07-01
@@ -191,8 +201,19 @@ extension/
 
 ---
 
+## 🔗 روابط مفيدة
+
+- [📖 التوثيق الكامل](README.md)
+- [🐛 الإبلاغ عن مشكلة](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/issues)
+- [💡 اقتراح ميزة](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/issues)
+- [📥 تحميل الإضافة](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases)
+
+---
+
 <div align="center">
 
 **شكرًا لاستخدامك Fill Attachment Fields! ⭐**
+
+[![GitHub stars](https://img.shields.io/github/stars/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension?style=social)](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension)
 
 </div>

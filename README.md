@@ -1,4 +1,4 @@
-# Fill Attachment Fields — Universal WordPress Extension
+﻿# Fill Attachment Fields — Universal WordPress Extension
 
 > ⚡ املأ حقول صور المنتجات في ووردبريس بضغطة واحدة — على أي موقع، بدون تعقيد.
 
@@ -6,7 +6,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/releases/tag/1.0.0)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Chrome](https://img.shields.io/badge/Chrome-Extension-e67e22.svg)](https://chrome.google.com/webstore/detail/fill-attachment-fields)
+[![Chrome](https://img.shields.io/badge/Chrome-Extension-e67e22.svg)](https://chromewebstore.google.com/search/fill%20attachment%20fields)
 [![Manifest](https://img.shields.io/badge/Manifest-V3-4285f4.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
 </div>
@@ -19,25 +19,17 @@
 
 ### 🎬 شاهد الإضافة أثناء العمل
 
-[![مقطع تجريبي على متجر عقيق](https://img.shields.io/badge/▶_مقطع_تجريبي-YouTube-red?style=for-the-badge)](https://youtu.be/WEMcsqZtiYE)
-
-</div>
-
----
-
-<div dir="rtl">
+[![شاهد الفيديو على YouTube](https://img.shields.io/badge/▶_شاهد_الفيديو-YouTube-red?style=for-the-badge)](https://youtu.be/WEMcsqZtiYE)
 
 **تجربة حية على متجر عقيق** — شاهد كيف تعمل الإضافة في الواقع: من رفع صور المنتج إلى ملء الحقول بضغطة واحدة.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/WEMcsqZtiYE" title="Fill Attachment Fields — تجربة على متجر عقيق" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
+[![مقطع تجريبي — Fill Attachment Fields على متجر عقيق](https://img.youtube.com/vi/WEMcsqZtiYE/maxresdefault.jpg)](https://youtu.be/WEMcsqZtiYE)
 
 ---
 
 <div align="center">
 
-![النافذة المنبثقة](images/popup-page.png)
+![النافذة المنبثقة](assets/screenshots/popup-page.png)
 
 </div>
 
@@ -45,20 +37,22 @@
 
 ## 📑 فهرس المحتوى
 
-- [المميزات](#-المميزات)
-- [لقطات الشاشة](#-لقطات-الشاشة)
-- [التثبيت](#%EF%B8%8F-التثبيت-على-كروم)
-- [الاستخدام](#-الاستخدام-السرعة)
-- [الإعدادات](#%EF%B8%8F-الإعدادات)
-- [اختصارات لوحة المفاتيح](#%EF%B8%8F-اختصارات-لوحة-المفاتيح)
-- [كيف تعمل؟](#%EF%B8%8F-كيف-تعمل-الإضافة)
-- [هيكل المشروع](#%EF%B8%8F-هيكل-المشروع)
-- [الخصوصية](#%EF%B8%8F-الخصوصية)
-- [التوافق](#%EF%B8%8F-التوافق)
-- [المطوّر](#%EF%B8%8F-%D9%85%D9%8A%D8%AF)
-- [المساهمة](#%EF%B8%8F-المساهمة)
-- [الترخيص](#%EF%B8%8F-الترخيص)
-- [سجل التغييرات](#%EF%B8%8F-سجل-التغييرات)
+- [المميزات](#المميزات)
+- [لقطات الشاشة](#لقطات-الشاشة)
+- [التثبيت](#التثبيت-على-كروم)
+- [الاستخدام](#الاستخدام-السرعة)
+- [الإعدادات](#الإعدادات)
+- [اختصارات لوحة المفاتيح](#اختصارات-لوحة-المفاتيح)
+- [كيف تعمل؟](#كيف-تعمل-الإضافة)
+- [هيكل المشروع](#هيكل-المشروع)
+- [الخصوصية](#الخصوصية)
+- [التوافق](#التوافق)
+- [المطوّر](#المطوّر)
+- [الأسئلة الشائعة](#الأسئلة-الشائعة)
+- [استكشاف الأخطاء](#استكشاف-الأخطاء-والحلول)
+- [المساهمة](#المساهمة)
+- [الترخيص](#الترخيص)
+- [سجل التغييرات](#سجل-التغييرات)
 
 ---
 
@@ -85,7 +79,7 @@
 
 <div align="center">
 
-![النافذة المنبثقة](images/popup-page.png)
+![النافذة المنبثقة](assets/screenshots/popup-page.png)
 
 </div>
 
@@ -94,13 +88,13 @@
 <div align="center">
 
 **الخطوة 1 — تصفية حسب النوع**
-![تصفية حسب النوع](images/filter-by-type.png)
+![تصفية حسب النوع](assets/screenshots/filter-by-type.png)
 
 **الخطوة 2 — الزر فوق الصورة**
-![الزر فوق الصورة](images/button-above-image.png)
+![الزر فوق الصورة](assets/screenshots/button-above-image.png)
 
 **الخطوة 3 — الحقول بعد الملء**
-![الحقول بعد الملء](images/fields-filled.png)
+![الحقول بعد الملء](assets/screenshots/fields-filled.png)
 
 </div>
 
@@ -109,19 +103,19 @@
 <div align="center">
 
 **عام**
-![الإعدادات العامة](images/general-settings.png)
+![الإعدادات العامة](assets/screenshots/general-settings.png)
 
 **الحقول**
-![حقول المرفق](images/attachment-fields.png)
+![حقول المرفق](assets/screenshots/attachment-fields.png)
 
 **المواقع المحظورة**
-![المواقع المحظورة](images/blocked-sites.png)
+![المواقع المحظورة](assets/screenshots/blocked-sites.png)
 
 **الإحصائيات**
-![الإحصائيات](images/statistics.png)
+![الإحصائيات](assets/screenshots/statistics.png)
 
 **حول**
-![حول الإضافة](images/about-extension.png)
+![حول الإضافة](assets/screenshots/about-extension.png)
 
 </div>
 
@@ -160,17 +154,17 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 
 **③ تصفية** — اختر «تصفية حسب النوع» ثم «رفع إلى هذا المنتج» لعرض صور هذا المنتج فقط.
 
-![تصفية حسب النوع](images/filter-by-type.png)
+![تصفية حسب النوع](assets/screenshots/filter-by-type.png)
 
 **④ اختر الصورة** — اضغط على أي صورة لفتح لوحة تفاصيل المرفق.
 
 **⑤ املأ الحقول** — اضغط زر «املأ من عنوان المنتج» فوق الصورة، أو استخدم `Alt+Shift+F`.
 
-![الزر فوق الصورة](images/button-above-image.png)
+![الزر فوق الصورة](assets/screenshots/button-above-image.png)
 
 **⑥ تحقق** — الحقول المختارة مملوءة بعنوان المنتج تلقائيًا!
 
-![الحقول بعد الملء](images/fields-filled.png)
+![الحقول بعد الملء](assets/screenshots/fields-filled.png)
 
 ---
 
@@ -186,7 +180,7 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 - **خيارات متقدمة** — الملء التلقائي + نص الزر المخصص
 - **روابط التواصل** — واتساب · بريد · GitHub
 
-![النافذة المنبثقة](images/popup-page.png)
+![النافذة المنبثقة](assets/screenshots/popup-page.png)
 
 ### صفحة الإعدادات الكاملة
 
@@ -194,7 +188,7 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 
 #### 🏠 عام
 
-![الإعدادات العامة](images/general-settings.png)
+![الإعدادات العامة](assets/screenshots/general-settings.png)
 
 | الإعداد | الوصف |
 |---------|-------|
@@ -204,7 +198,7 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 
 #### 📋 الحقول
 
-![حقول المرفق](images/attachment-fields.png)
+![حقول المرفق](assets/screenshots/attachment-fields.png)
 
 | الحقل | الأهمية |
 |------|---------|
@@ -215,14 +209,14 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 
 #### 🚫 المواقع المحظورة
 
-![المواقع المحظورة](images/blocked-sites.png)
+![المواقع المحظورة](assets/screenshots/blocked-sites.png)
 
 - أضف نطاقات محددة لا تريد أن تعمل عليها الإضافة
 - احذف مواقع من القائمة بسهولة
 
 #### 📊 الإحصائيات
 
-![الإحصائيات](images/statistics.png)
+![الإحصائيات](assets/screenshots/statistics.png)
 
 - عدد عمليات الملء الإجمالية
 - عدد الصور المملوءة
@@ -233,7 +227,7 @@ git clone https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-Word
 
 #### ℹ️ حول
 
-![حول الإضافة](images/about-extension.png)
+![حول الإضافة](assets/screenshots/about-extension.png)
 
 - معلومات الإضافة والإصدار الحالي
 - المميزات الرئيسية
@@ -299,16 +293,18 @@ Fill-Attachment-Fields-Universal-WordPress-Extension/
 ├── LICENSE                ← ترخيص MIT
 ├── .gitignore
 │
-├── images/                ← لقطات الشاشة
-│   ├── popup-page.png
-│   ├── filter-by-type.png
-│   ├── button-above-image.png
-│   ├── fields-filled.png
-│   ├── general-settings.png
-│   ├── attachment-fields.png
-│   ├── blocked-sites.png
-│   ├── statistics.png
-│   └── about-extension.png
+├── assets/                ← جميع الموارد
+│   ├── screenshots/       ← لقطات الشاشة
+│   │   ├── popup-page.png
+│   │   ├── filter-by-type.png
+│   │   ├── button-above-image.png
+│   │   ├── fields-filled.png
+│   │   ├── general-settings.png
+│   │   ├── attachment-fields.png
+│   │   ├── blocked-sites.png
+│   │   ├── statistics.png
+│   │   └── about-extension.png
+│   └── videos/            ← فيديوهات العرض (غير مُرفَعة على Git)
 │
 └── extension/             ← ملفات الإضافة (ZIP للتوزيع)
     ├── manifest.json      ← إعدادات الإضافة (Manifest V3)
@@ -359,8 +355,19 @@ Fill-Attachment-Fields-Universal-WordPress-Extension/
 
 ### ووردبريس
 
-- ✅ أي إصدار حديث يستخدم مكتبة الوسائط الحديثة
-- ✅ يعمل مع WooCommerce وجميع قوالب ووردبريس
+| المتوافق | الحالة |
+|---------|--------|
+| أي إصدار حديث (مكتبة الوسائط الحديثة) | ✅ مدعوم بالكامل |
+| WooCommerce | ✅ مدعوم بالكامل |
+| جميع قوالب ووردبريس | ✅ مدعوم بالكامل |
+
+### متصفحات غير مدعومة حاليًا
+
+| المتصفح | السبب |
+|---------|-------|
+| Firefox | يستخدم Manifest V2 فقط — لا يدعم Manifest V3 |
+| Safari | لا يدعم إضافات Chromium |
+| Internet Explorer | غير مدعوم — متصفح قديم |
 
 ---
 
@@ -376,6 +383,92 @@ Fill-Attachment-Fields-Universal-WordPress-Extension/
 | **GitHub** | [yousef2000326](https://github.com/yousef2000326) |
 
 </div>
+
+---
+
+## ❓ الأسئلة الشائعة
+
+### هل تعمل الإضافة على أي موقع ووردبريس؟
+نعم! الإضافة تعمل تلقائيًا على أي موقع ووردبريس — سواء كان في جذر النطاق أو في مجلد فرعي — بدون الحاجة لإعدادات مسبقة.
+
+### هل تدعم الإضافة WooCommerce؟
+نعم، الإضافة متوافقة تمامًا مع WooCommerce وجميع قوالب ووردبريس التي تستخدم مكتبة الوسائط الحديثة.
+
+### هل يمكنني اختيار الحقول التي أريد ملؤها؟
+بالتأكيد! يمكنك التحكم في كل حقل بشكل منفصل من الإعدادات: النص البديل، العنوان، كلمات توضيحية، الوصف.
+
+### ما هو الملء التلقائي؟
+عند تفعيله، يتم ملء الحقول تلقائيًا فور اكتمال رفع الصورة — بدون الحاجة لاضغط زر.
+
+### هل يمكنني استثناء مواقع معينة؟
+نعم! يمكنك إضافة مواقع إلى القائمة المحظورة من تبويب «المواقع المحظورة» في الإعدادات.
+
+### هل تجمع الإضافة أي بيانات شخصية؟
+لا. جميع الإعدادات والإحصائيات محفوظة محليًا على متصفحك فقط. لا توجد أي اتصالات شبكة خارجية.
+
+### كيف أعدل اختصارات لوحة المفاتيح؟
+انتقل إلى `chrome://extensions/shortcuts` واختر «Fill Attachment Fields» ثم عدّل الاختصارات حسب رغبتك.
+
+### هل تعمل الإضافة على Firefox أو Safari؟
+الإضافة مبنية على Manifest V3 الخاص بـ Chrome. قد تعمل على المتصفحات القائمة على Chromium (Edge, Brave, Arc, Vivaldi, Opera) ولكن لا تعمل حاليًا على Firefox أو Safari.
+
+---
+
+## 🔧 استكشاف الأخطاء والحلول
+
+| المشكلة | الحل |
+|---------|------|
+| الزر لا يظهر فوق الصورة | تأكد من أنك في صفحة تحرير منتج وأن لوحة تفاصيل المرفق مفتوحة |
+| الحقول لا تُملى | تحقق من أن الحقول المطلوبة مفعّلة في تبويب «الحقول» بالإعدادات |
+| الإضافة لا تعمل على موقع معين | تحقق من أن الموقع غير موجود في القائمة المحظورة |
+| الاختصارات لا تعمل | تأكد من عدم تعارضها مع اختصارات أخرى من `chrome://extensions/shortcuts` |
+| المظهر لا يتغير | جرب التبديل بين الأوضاع (تلقائي / نهاري / ليلي) ثم أعد تحميل الصفحة |
+| الإضافة لا تظهر في شريط الأدوات | اضغط على أيقونة الـ Puzzle في Chrome واسحب الإضافة إلى شريط الأدوات |
+
+> 💡 **لا تزال المشكلة موجودة؟** افتح [Issue](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/issues) مع وصف واضح للمشكلة وخطوات إعادة إنتاجها.
+
+---
+
+## ❓ الأسئلة الشائعة
+
+### هل تعمل الإضافة على أي موقع ووردبريس؟
+نعم! الإضافة تعمل تلقائيًا على أي موقع ووردبريس — سواء كان في جذر النطاق أو في مجلد فرعي — بدون الحاجة لإعدادات مسبقة.
+
+### هل تدعم الإضافة WooCommerce؟
+نعم، الإضافة متوافقة تمامًا مع WooCommerce وجميع قوالب ووردبريس التي تستخدم مكتبة الوسائط الحديثة.
+
+### هل يمكنني اختيار الحقول التي أريد ملؤها؟
+بالتأكيد! يمكنك التحكم في كل حقل بشكل منفصل من الإعدادات: النص البديل، العنوان، كلمات توضيحية، الوصف.
+
+### ما هو الملء التلقائي؟
+عند تفعيله، يتم ملء الحقول تلقائيًا فور اكتمال رفع الصورة — بدون الحاجة لاضغط زر.
+
+### هل يمكنني استثناء مواقع معينة؟
+نعم! يمكنك إضافة مواقع إلى القائمة المحظورة من تبويب «المواقع المحظورة» في الإعدادات.
+
+### هل تجمع الإضافة أي بيانات شخصية؟
+لا. جميع الإعدادات والإحصائيات محفوظة محليًا على متصفحك فقط. لا توجد أي اتصالات شبكة خارجية.
+
+### كيف أعدل اختصارات لوحة المفاتيح؟
+انتقل إلى `chrome://extensions/shortcuts` واختر «Fill Attachment Fields» ثم عدّل الاختصارات حسب رغبتك.
+
+### هل تعمل الإضافة على Firefox أو Safari؟
+الإضافة مبنية على Manifest V3 الخاص بـ Chrome. قد تعمل على المتصفحات القائمة على Chromium (Edge, Brave, Arc, Vivaldi, Opera) ولكن لا تعمل حاليًا على Firefox أو Safari.
+
+---
+
+## 🔧 استكشاف الأخطاء والحلول
+
+| المشكلة | الحل |
+|---------|------|
+| الزر لا يظهر فوق الصورة | تأكد من أنك في صفحة تحرير منتج وأن لوحة تفاصيل المرفق مفتوحة |
+| الحقول لا تُملى | تحقق من أن الحقول المطلوبة مفعّلة في تبويب «الحقول» بالإعدادات |
+| الإضافة لا تعمل على موقع معين | تحقق من أن الموقع غير موجود في القائمة المحظورة |
+| الاختصارات لا تعمل | تأكد من عدم تعارضها مع اختصارات أخرى من `chrome://extensions/shortcuts` |
+| المظهر لا يتغير | جرب التبديل بين الأوضاع (تلقائي / نهاري / ليلي) ثم أعد تحميل الصفحة |
+| الإضافة لا تظهر في شريط الأدوات | اضغط على أيقونة الـ Puzzle في Chrome واسحب الإضافة إلى شريط الأدوات |
+
+> 💡 **لا تزال المشكلة موجودة؟** افتح [Issue](https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/issues) مع وصف واضح للمشكلة وخطوات إعادة إنتاجها.
 
 ---
 
