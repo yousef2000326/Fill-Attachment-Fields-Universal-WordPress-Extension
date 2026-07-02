@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fill Attachment Fields — الإعدادات</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body data-theme="auto">
+
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">
+          <img src="icons/icon48.png" alt="" width="32" height="32" />
+        </div>
+        <div>
+          <h1>Fill Attachment Fields</h1>
+          <p>الإصدار 1.0.0</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#general" class="nav-item active" data-tab="general">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <span>عام</span>
+        </a>
+        <a href="#fields" class="nav-item" data-tab="fields">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/></svg>
+          <span>الحقول</span>
+        </a>
+        <a href="#sites" class="nav-item" data-tab="sites">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>المواقع</span>
+        </a>
+        <a href="#stats" class="nav-item" data-tab="stats">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          <span>الإحصائيات</span>
+        </a>
+        <a href="#about" class="nav-item" data-tab="about">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <span>حول</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a href="https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension" target="_blank" rel="noreferrer" class="sidebar-link">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Tab: General -->
+      <section class="tab-section active" id="tab-general">
+        <div class="section-header">
+          <h2>الإعدادات العامة</h2>
+          <p>تحكّم في سلوك الإضافة بشكل عام.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-row">
+            <div class="card-row-text">
+              <h3>تفعيل الإضافة</h3>
+              <p>عند التعطيل لن تظهر الأزرار في أي موقع ووردبريس.</p>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="opt-enabled" />
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="card-row">
+            <div class="card-row-text">
+              <h3>الملء التلقائي عند الرفع</h3>
+              <p>يملأ الحقول فور اكتمال رفع الصورة دون الحاجة لضغط الزر.</p>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="opt-autoFillOnUpload" />
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="card-row card-row-column">
+            <div class="card-row-text">
+              <h3>نص الزر</h3>
+              <p>النص الذي يظهر على الزر داخل لوحة المرفقات في ووردبريس.</p>
+            </div>
+            <input type="text" id="opt-buttonText" class="text-input" placeholder="املأ من عنوان المنتج" maxlength="40" />
+          </div>
+
+          <div class="card-row card-row-column">
+            <div class="card-row-text">
+              <h3>المظهر</h3>
+              <p>اختر مظهر نافذة الإعدادات: تلقائي (حسب النظام)، نهاري، أو ليلي.</p>
+            </div>
+            <div class="theme-options">
+              <label class="theme-option">
+                <input type="radio" name="theme" value="auto" />
+                <span class="theme-option-body">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg>
+                  <span>تلقائي</span>
+                </span>
+              </label>
+              <label class="theme-option">
+                <input type="radio" name="theme" value="light" />
+                <span class="theme-option-body">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                  <span>نهاري</span>
+                </span>
+              </label>
+              <label class="theme-option">
+                <input type="radio" name="theme" value="dark" />
+                <span class="theme-option-body">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                  <span>ليلي</span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Fields -->
+      <section class="tab-section" id="tab-fields">
+        <div class="section-header">
+          <h2>حقول المرفق</h2>
+          <p>اختر الحقول التي تريد ملؤها تلقائيًا عند الضغط على الزر.</p>
+        </div>
+
+        <div class="card">
+          <div class="fields-list">
+            <div class="field-item">
+              <div class="field-info">
+                <div class="field-icon field-icon-alt">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                </div>
+                <div>
+                  <h3>النص البديل (Alt Text)</h3>
+                  <p>يحسّن ظهور المنتجات في محركات البحث ويساعد إمكانية الوصول.</p>
+                  <code>#attachment-details-alt-text</code>
+                </div>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="opt-fillAlt" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <div class="field-item">
+              <div class="field-info">
+                <div class="field-icon field-icon-title">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+                </div>
+                <div>
+                  <h3>العنوان (Title)</h3>
+                  <p>العنوان الداخلي للصورة داخل مكتبة الوسائط.</p>
+                  <code>#attachment-details-title</code>
+                </div>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="opt-fillTitle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <div class="field-item">
+              <div class="field-info">
+                <div class="field-icon field-icon-caption">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </div>
+                <div>
+                  <h3>كلمات توضيحية (Caption)</h3>
+                  <p>النص الذي يظهر أسفل الصورة داخل المنتج.</p>
+                  <code>#attachment-details-caption</code>
+                </div>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="opt-fillCaption" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <div class="field-item">
+              <div class="field-info">
+                <div class="field-icon field-icon-desc">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="14" y2="18"/></svg>
+                </div>
+                <div>
+                  <h3>الوصف (Description)</h3>
+                  <p>وصف طويل للصورة يظهر في صفحة المرفق المنفردلة.</p>
+                  <code>#attachment-details-description</code>
+                </div>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="opt-fillDescription" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Sites -->
+      <section class="tab-section" id="tab-sites">
+        <div class="section-header">
+          <h2>المواقع المحظورة</h2>
+          <p>قائمة المواقع التي لا تريد أن تعمل عليها الإضافة.</p>
+        </div>
+
+        <div class="card">
+          <form id="siteForm" class="site-form">
+            <input type="text" id="siteInput" class="text-input" placeholder="example.com" />
+            <button type="submit" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              إضافة
+            </button>
+          </form>
+
+          <div id="sitesList" class="sites-list">
+            <!-- تُملأ ديناميكيًا -->
+          </div>
+
+          <div id="sitesEmpty" class="empty-state">
+            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+            <h3>لا توجد مواقع محظورة</h3>
+            <p>الإضافة تعمل على جميع مواقع ووردبريس افتراضيًا.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Stats -->
+      <section class="tab-section" id="tab-stats">
+        <div class="section-header">
+          <h2>الإحصائيات</h2>
+          <p>تتبّع استخدامك للإضافة عبر الوقت.</p>
+        </div>
+
+        <div class="stats-cards">
+          <div class="stat-card stat-card-primary">
+            <div class="stat-card-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div class="stat-card-body">
+              <span class="stat-card-value" id="opt-stat-filled">0</span>
+              <span class="stat-card-label">عملية ملء</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+            <div class="stat-card-body">
+              <span class="stat-card-value" id="opt-stat-images">0</span>
+              <span class="stat-card-label">صورة مملوءة</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="stat-card-body">
+              <span class="stat-card-value" id="opt-stat-sites">0</span>
+              <span class="stat-card-label">موقع مختلف</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-row card-row-space-between">
+            <div class="card-row-text">
+              <h3>آخر استخدام</h3>
+              <p id="opt-stat-last">لم يُستخدم بعد</p>
+            </div>
+            <button id="resetStats" class="btn btn-danger-ghost">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>
+              تصفير الإحصائيات
+            </button>
+          </div>
+        </div>
+
+        <div class="card" id="sitesStatsCard" style="display:none;">
+          <div class="card-header">
+            <h3>المواقع الأكثر استخدامًا</h3>
+          </div>
+          <div id="sitesStatsList" class="sites-stats-list"></div>
+        </div>
+      </section>
+
+      <!-- Tab: About -->
+      <section class="tab-section" id="tab-about">
+        <div class="section-header">
+          <h2>حول الإضافة</h2>
+          <p>معلومات عن الإضافة والمطور.</p>
+        </div>
+
+        <div class="card about-card">
+          <div class="about-logo">
+            <img src="icons/icon128.png" alt="" width="72" height="72" />
+          </div>
+          <h2>Fill Attachment Fields</h2>
+          <p class="about-version">الإصدار 1.0.0</p>
+          <p class="about-desc">
+            إضافة كروم احترافية تضيف زرًا لملء حقول المرفقات من عنوان المنتج في أي موقع ووردبريس.
+            توفّر وقتك عند رفع صور المنتجات وتحسّن ظهور موقعك في محركات البحث.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              تعمل على أي موقع ووردبريس
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Manifest V3
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              وضع ليلي تلقائي
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              اختصارات لوحة المفاتيح
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              إحصائيات مفصّلة
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              مفتوحة المصدر (MIT)
+            </div>
+          </div>
+
+          <div class="about-developer">
+            <h3>المطوّر</h3>
+            <div class="developer-info">
+              <div class="developer-row">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <a href="https://wa.me/201148280146" target="_blank" rel="noreferrer">Yousef Ahmed</a>
+              </div>
+              <div class="developer-row">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:jolove2018go@gmail.com">jolove2018go@gmail.com</a>
+              </div>
+              <div class="developer-row">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                <a href="https://wa.me/201148280146" target="_blank" rel="noreferrer">+201148280146</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <a href="https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension" target="_blank" rel="noreferrer" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              الكود على GitHub
+            </a>
+            <a href="https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension/issues" target="_blank" rel="noreferrer" class="btn btn-ghost">
+              الإبلاغ عن مشكلة
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

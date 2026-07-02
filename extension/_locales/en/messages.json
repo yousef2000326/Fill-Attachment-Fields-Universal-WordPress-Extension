@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Fill Attachment Fields — Any WordPress Site",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Professional extension that adds a button to fill attachment fields (alt text, title, caption, description) from the product title on any WordPress site — with stats, dark mode, and keyboard shortcuts.",
+    "description": "Extension description"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "ar",
+  "author": "Yousef Ahmed <jolove2018go@gmail.com> | WhatsApp: +201148280146",
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "commands"
+  ],
+
+  "host_permissions": [
+    "*://*/wp-admin/post.php*",
+    "*://*/wp-admin/post-new.php*",
+    "*://*/*/wp-admin/post.php*",
+    "*://*/*/wp-admin/post-new.php*",
+    "*://*/*/*/wp-admin/post.php*",
+    "*://*/*/*/wp-admin/post-new.php*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Fill Attachment Fields",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+
+  "options_page": "options.html",
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/wp-admin/post.php*",
+        "*://*/wp-admin/post-new.php*",
+        "*://*/*/wp-admin/post.php*",
+        "*://*/*/wp-admin/post-new.php*",
+        "*://*/*/*/wp-admin/post.php*",
+        "*://*/*/*/wp-admin/post-new.php*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "commands": {
+    "fill-current-attachment": {
+      "suggested_key": {
+        "default": "Alt+Shift+F",
+        "mac": "Alt+Shift+F"
+      },
+      "description": "ملء حقول المرفق الحالي من عنوان المنتج"
+    },
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+P",
+        "mac": "Alt+Shift+P"
+      }
+    }
+  },
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "homepage_url": "https://github.com/yousef2000326/Fill-Attachment-Fields-Universal-WordPress-Extension"
+}
